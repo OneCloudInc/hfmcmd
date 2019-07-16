@@ -87,7 +87,7 @@ namespace HFMCmd
             var cmdLineArgs = Environment.GetCommandLineArgs();
 
             // Define command-line UI
-            _cmdLine = new UI(HFMCmd.Resource.Help.Instructions);
+            _cmdLine = new UI("Help Instructions");
             _console = new ConsoleOutput(_cmdLine);
 
             ConfigureLogging(cmdLineArgs);
@@ -442,10 +442,12 @@ namespace HFMCmd
                 string command,
                 IOutput output)
         {
-            if(output == null) return;
+            Console.WriteLine(System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceNames());
+
+            if (output == null) return;
             if(command == null) {
                 // Display general help
-                output.WriteLine(string.Format(HFMCmd.Resource.Help.General,
+                output.WriteLine(string.Format("Help text",
                             ApplicationInfo.ExeName,
                             _inREPL ? "" : ApplicationInfo.ExeName));
             }

@@ -25,10 +25,12 @@ namespace Encryption
         /// </summary>
         public static string Encrypt(string plainText)
         {
-            var plainTextBytes = Encoding.UTF8.GetBytes(plainText);
-            var cipherTextBytes = ProtectedData.Protect(plainTextBytes, null,
-                    DataProtectionScope.LocalMachine);
-            return Convert.ToBase64String(cipherTextBytes);
+            //var plainTextBytes = Encoding.UTF8.GetBytes(plainText);
+            //var cipherTextBytes = ProtectedData.Protect(plainTextBytes, null,
+            //        DataProtectionScope.LocalMachine);
+            //return Convert.ToBase64String(cipherTextBytes);
+
+            return plainText;
         }
 
 
@@ -37,10 +39,11 @@ namespace Encryption
         /// </summary>
         public static string Decrypt(string cipherText)
         {
-            var cipherTextBytes = Convert.FromBase64String(cipherText);
-            var plainTextBytes = ProtectedData.Unprotect(cipherTextBytes, null,
-                    DataProtectionScope.LocalMachine);
-            return Encoding.UTF8.GetString(plainTextBytes, 0, plainTextBytes.Length);
+            //var cipherTextBytes = Convert.FromBase64String(cipherText);
+            //var plainTextBytes = ProtectedData.Unprotect(cipherTextBytes, null,
+            //        DataProtectionScope.LocalMachine);
+            //return Encoding.UTF8.GetString(plainTextBytes, 0, plainTextBytes.Length);
+            return cipherText;
         }
 
     }
