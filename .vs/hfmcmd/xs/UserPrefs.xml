@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{AF7CBCE3-F229-45CF-A05C-01409726AFB8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/hfm/StarSchema.cs">
+    <Files>
+      <File FileName="src/Application.cs" Line="36" Column="47" />
+      <File FileName="src/hfm/DataLoad.cs" />
+      <File FileName="src/hfm/HFM.cs" Line="87" Column="8" />
+      <File FileName="hfmcmd.csproj" Line="99" Column="1" />
+      <File FileName="src/hfm/StarSchema.cs" Line="17" Column="2" />
+      <File FileName="src/hfm/SystemInfo.cs" Line="63" Column="76" />
+      <File FileName="Rakefile.rb" Line="110" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="hfmcmd" expanded="True">
+            <Node name="hfmcmd" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="AssemblyDependencies" expanded="True" />
+              </Node>
+              <Node name="gen" expanded="True">
+                <Node name="NET_4.0" expanded="True" />
+              </Node>
+              <Node name="lib" expanded="True" />
+              <Node name="src" expanded="True">
+                <Node name="hfm" expanded="True">
+                  <Node name="StarSchema.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.hfmcmd PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

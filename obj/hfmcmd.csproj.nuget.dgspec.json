@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ryancurtin/src/onecloud/hfmcmd/hfmcmd.csproj": {}
+  },
+  "projects": {
+    "/Users/ryancurtin/src/onecloud/hfmcmd/hfmcmd.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ryancurtin/src/onecloud/hfmcmd/hfmcmd.csproj",
+        "projectName": "hfmcmd",
+        "projectPath": "/Users/ryancurtin/src/onecloud/hfmcmd/hfmcmd.csproj",
+        "packagesPath": "/Users/ryancurtin/.nuget/packages/",
+        "outputPath": "/Users/ryancurtin/src/onecloud/hfmcmd/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ryancurtin/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

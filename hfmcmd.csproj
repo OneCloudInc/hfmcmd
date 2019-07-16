@@ -1,0 +1,98 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>hfmcmd</RootNamespace>
+    <DefineConstants>DEBUG;HFM_11_1_2_2</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.HSVDATALib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSVDATALib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HSVJOURNALLOADACVLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSVJOURNALLOADACVLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HSVJOURNALSLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSVJOURNALSLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HSVMETADATALib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSVMETADATALib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HSVMETADATALOADACVLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSVMETADATALOADACVLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HSVRESOURCEMANAGERLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSVRESOURCEMANAGERLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HSVPROCESSFLOWLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSVPROCESSFLOWLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HSVRULESLOADACVLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSVRULESLOADACVLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HSVSECURITYACCESSLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSVSECURITYACCESSLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HSVSECURITYLOADACVLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSVSECURITYLOADACVLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HSVSESSIONLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSVSESSIONLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HSVSTARSCHEMAACMLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSVSTARSCHEMAACMLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HSVSYSTEMINFOLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSVSYSTEMINFOLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HSXCLIENTLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSXCLIENTLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HSXSERVERFILETRANSFERLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSXSERVERFILETRANSFERLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HSXSERVERLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSXSERVERLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HSVCDATALOADLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSVCDATALOADLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HFMCONSTANTSLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HFMCONSTANTSLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HFMSLICECOMLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HFMSLICECOMLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HFMWAPPLICATIONSLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HFMWAPPLICATIONSLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HFMWDOCUMENTSLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HFMWDOCUMENTSLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HFMWSESSIONLib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HFMWSESSIONLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.HSVCALCULATELib">
+      <HintPath>lib\hfm-11.1.2.2\Interop.HSVCALCULATELib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="gen\NET_3.5_HFM_11.1.2.1\AssemblyInfo.cs" />
+    <Compile Remove="gen\NET_3.5_HFM_11.1.2.2\AssemblyInfo.cs" />
+    <Compile Remove="gen\NET_3.5_HFM_11.1.2.2.300\AssemblyInfo.cs" />
+    <Compile Remove="gen\NET_3.5_HFM_11.1.2.3\AssemblyInfo.cs" />
+    <Compile Remove="gen\NET_3.5_HFM_9.3.1\AssemblyInfo.cs" />
+    <Compile Remove="gen\NET_4.0\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gen\NET_3.5_HFM_11.1.2.1\AssemblyInfo.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="gen\NET_3.5_HFM_11.1.2.2\AssemblyInfo.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="gen\NET_3.5_HFM_11.1.2.2.300\AssemblyInfo.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="gen\NET_3.5_HFM_11.1.2.3\AssemblyInfo.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="gen\NET_3.5_HFM_9.3.1\AssemblyInfo.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+    <None Include="gen\NET_4.0\AssemblyInfo.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+  </ItemGroup>
+</Project>

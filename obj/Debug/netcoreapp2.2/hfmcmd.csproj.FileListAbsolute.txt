@@ -1,0 +1,6 @@
+/Users/ryancurtin/src/onecloud/hfmcmd/obj/Debug/netcoreapp2.2/hfmcmd.csprojAssemblyReference.cache
+/Users/ryancurtin/src/onecloud/hfmcmd/obj/Debug/netcoreapp2.2/hfmcmd.resources.Help.resources
+/Users/ryancurtin/src/onecloud/hfmcmd/obj/Debug/netcoreapp2.2/hfmcmd.csproj.GenerateResource.cache
+/Users/ryancurtin/src/onecloud/hfmcmd/obj/Debug/netcoreapp2.2/hfmcmd.csproj.CoreCompileInputs.cache
+/Users/ryancurtin/src/onecloud/hfmcmd/obj/Debug/netcoreapp2.2/hfmcmd.AssemblyInfoInputs.cache
+/Users/ryancurtin/src/onecloud/hfmcmd/obj/Debug/netcoreapp2.2/hfmcmd.AssemblyInfo.cs
